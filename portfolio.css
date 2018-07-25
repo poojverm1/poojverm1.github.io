@@ -113,16 +113,16 @@ display:flex;
 
 
 
-@media only screen and (min-width: 500px){
-    .container{width: 70%;font-size:0.2rem}
+@media only screen and (max-width: 500px){
+    .container{width: 100%;font-size:0.8rem}
 }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
-    .container{width: 70%;font-size:0.5rem}
+    .container{width: 100%}
     
 }
 @media only screen and (min-width: 768px) {
     /* For desktop: */
-    .container {width: 100%;font-size:1.2rem;}
+    .container {width: 100%}
     
 }
